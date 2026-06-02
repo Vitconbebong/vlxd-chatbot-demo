@@ -3,6 +3,8 @@
 > Enterprise Modular Monolith cho quản lý & bán vật liệu xây dựng (VLXD), 
 > tích hợp AI tư vấn thông minh (RAG, Sentiment Analysis, Entity Extraction).
 
+🌐 **[English Version](README_EN.md)**
+
 [![.NET 10](https://img.shields.io/badge/.NET-10.0-512BD4?logo=dotnet&logoColor=white)](https://dotnet.microsoft.com/download)
 [![React 19](https://img.shields.io/badge/React-19.0-61DAFB?logo=react&logoColor=black)](https://react.dev)
 [![SQL Server](https://img.shields.io/badge/SQL%20Server-2022-CC2927?logo=microsoftsqlserver&logoColor=white)](https://www.microsoft.com/sql-server)
