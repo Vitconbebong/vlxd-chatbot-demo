@@ -1,0 +1,29 @@
+# .NET Build output
+bin/
+obj/
+publish/
+.vs/
+*.user
+*.suo
+appsettings.Production.json
+appsettings.local.json
+appsettings.Development.json
+TestResults/
+
+# Node.js Build output & dependencies
+node_modules/
+dist/
+.env
+.env.local
+.env.*.local
+.eslintcache
+
+# Logs
+.logs/
+*.log
+
+# OS & IDE Cache
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

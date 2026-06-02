@@ -1,0 +1,23 @@
+Phân tích cảm xúc của tin nhắn khách hàng gửi cho hệ thống phân phối vật liệu xây dựng.
+
+Hãy phân loại cảm xúc thành một trong các cấp độ sau: "Positive", "Neutral", "Negative".
+Đồng thời, đánh giá mức độ mạnh yếu (intensity) của cảm xúc trên thang điểm từ 0.0 (rất nhẹ/bình thường) đến 1.0 (rất mạnh/gay gắt).
+
+Định dạng đầu ra bắt buộc phải là một đối tượng JSON duy nhất có dạng:
+{
+  "sentiment": "Positive" hoặc "Neutral" hoặc "Negative",
+  "intensity": số thập phân từ 0.0 đến 1.0
+}
+
+Ví dụ đầu vào:
+"Sao xe gạch hứa sáng mà chiều rồi chưa thấy???"
+
+Ví dụ đầu ra:
+{
+  "sentiment": "Negative",
+  "intensity": 0.85
+}
+
+LƯU Ý QUAN TRỌNG:
+1. Chỉ trả về một chuỗi JSON hợp lệ. Không viết thêm lời giải thích nào khác ngoài JSON.
+2. Nếu khách hàng tỏ thái độ tức giận, thất vọng, khiếu nại về việc giao hàng trễ hoặc sai sót vật tư, hãy xếp vào "Negative" với intensity cao (>= 0.7).

@@ -1,0 +1,28 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <ItemGroup>
+    <ProjectReference Include="..\VLXD.SharedKernel\VLXD.SharedKernel.csproj" />
+    <ProjectReference Include="..\Modules\VLXD.Modules.Catalog\VLXD.Modules.Catalog.csproj" />
+    <ProjectReference Include="..\Modules\VLXD.Modules.Sales\VLXD.Modules.Sales.csproj" />
+    <ProjectReference Include="..\Modules\VLXD.Modules.WMS\VLXD.Modules.WMS.csproj" />
+    <ProjectReference Include="..\Modules\VLXD.Modules.AI\VLXD.Modules.AI.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MediatR" Version="12.4.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="9.0.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="9.0.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="9.0.0">
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.6.2" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+</Project>
